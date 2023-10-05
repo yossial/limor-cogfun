@@ -49,7 +49,7 @@ export default function contactUs() {
                       />
                       <label
                         for="Message"
-                        class="absolute cursor-text text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1"
+                        class="absolute cursor-text text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-0 scale-75 left-1 top-0 z-10 origin-0 bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:top-2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4"
                       >
                         Message
                       </label>
@@ -66,7 +66,7 @@ export default function contactUs() {
               <div className="md:mb-12 lg:mb-0">
                 <div className="relative h-[700px] rounded-lg shadow-lg dark:shadow-black/20">
                   <iframe
-                    src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    src="https://maps.google.com/maps?q=beitshemesh&t=&z=13&ie=UTF8&iwloc=&output=embed"
                     className="absolute left-0 top-0 h-full w-full rounded-lg"
                     frameborder="0"
                     allowfullscreen
