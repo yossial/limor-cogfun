@@ -10,14 +10,14 @@ const Navbar = () => {
 
   return (
     <div className="w-full">
-      <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
+      <nav className="container relative flex flex-wrap items-center justify-between pt-4 px-8 mx-auto lg:justify-between xl:px-0">
         {/* Logo  */}
         <Disclosure>
           {({ open }) => (
             <>
               <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
                 <Link href="/">
-                  <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+                  <span className="flex items-center space-x-2 text-2xl font-medium text-primary-500 dark:text-gray-100">
                     <span>
                       <Image
                         src="/img/logo.svg"
@@ -33,7 +33,7 @@ const Navbar = () => {
 
                 <Disclosure.Button
                   aria-label="Toggle Menu"
-                  className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700"
+                  className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-primary-500 focus:text-primary-500 focus:bg-primary-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700"
                 >
                   <svg
                     className="w-6 h-6 fill-current"
@@ -62,14 +62,14 @@ const Navbar = () => {
                       <Link
                         key={index}
                         href="/"
-                        className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
+                        className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-primary-500 focus:text-primary-500 focus:bg-primary-100 dark:focus:bg-gray-800 focus:outline-none"
                       >
                         {item}
                       </Link>
                     ))}
                     <Link
                       href="/"
-                      className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5"
+                      className="w-full px-6 py-2 mt-3 text-center text-white bg-primary-600 rounded-md lg:ml-5"
                     >
                       Get Started
                     </Link>
@@ -87,7 +87,7 @@ const Navbar = () => {
               <li className="mr-3 nav__item" key={index}>
                 <Link
                   href={`/${menu}`}
-                  className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800"
+                  className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-primary-500 focus:text-primary-500 focus:bg-primary-100 focus:outline-none dark:focus:bg-gray-800"
                 >
                   {menu}
                 </Link>
@@ -99,7 +99,7 @@ const Navbar = () => {
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <Link
             href="/"
-            className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5"
+            className="px-6 py-2 text-white bg-primary-700 hover:bg-primary-900 rounded-md md:ml-5"
           >
             Get Started
           </Link>

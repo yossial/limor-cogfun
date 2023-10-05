@@ -31,7 +31,7 @@ export default function RootLayout({
       </Head>
       <ThemeProvider attribute="class">
         <body className={inter.className}>
-          <main className='mx-8'>
+          <main className='mx-12'>
             <Navbar />
             {children}
           </main>
