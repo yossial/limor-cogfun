@@ -11,7 +11,7 @@ const Hero = () => (
             Facing challenges with ADHD?
           </h1>
           <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:mb-4 lg:mt-4 lg:mn-8 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-            Explore the successful{" "}
+            Explore the{" "}
             <span className="text-transparent bg-gradient-to-r from-orange-400 via-pink-500 to-teal-600 font-bold leading-none tracking-tight bg-clip-text">
               Cog-Fun
             </span>{" "}

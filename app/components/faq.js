@@ -7,9 +7,11 @@ import { BsChevronBarUp } from "react-icons/bs";
 
 const Faq = () => {
   return (
-    <Container className="!p-0">
+    <Container className="!p-0 mt-8">
       <div className="flex justify-center mb-8 lg:mb-12">
-        <h1 className="text-xl lg:text-2xl">Frequently Asked Questions</h1>
+        <h1 className="bg-sky-100 text-sky-600 p-4 rounded-md">
+          Frequently Asked Questions
+        </h1>
       </div>
 
       <div className="w-full max-w-2xl p-2 mx-auto rounded-2xl">
