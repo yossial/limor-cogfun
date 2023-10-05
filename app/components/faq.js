@@ -1,11 +1,17 @@
+"use client";
+
 import React from "react";
 import Container from "./container";
 import { Disclosure } from "@headlessui/react";
-import { ChevronUpIcon } from "@heroicons/react/24/solid";
+import { BsChevronBarUp } from "react-icons/bs";
 
 const Faq = () => {
   return (
     <Container className="!p-0">
+      <div className="flex justify-center mb-8 lg:mb-12">
+        <h1 className="text-xl lg:text-2xl">Frequently Asked Questions</h1>
+      </div>
+
       <div className="w-full max-w-2xl p-2 mx-auto rounded-2xl">
         {faqdata.map((item, index) => (
           <div key={item.question} className="mb-5">
@@ -14,7 +20,7 @@ const Faq = () => {
                 <>
                   <Disclosure.Button className="flex items-center justify-between w-full px-4 py-4 text-lg text-left text-gray-800 rounded-lg bg-gray-50 hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-primary-100 focus-visible:ring-opacity-75 dark:bg-trueGray-800 dark:text-gray-200">
                     <span>{item.question}</span>
-                    <ChevronUpIcon
+                    <BsChevronBarUp
                       className={`${
                         open ? "transform rotate-180" : ""
                       } w-5 h-5 text-primary-500`}
