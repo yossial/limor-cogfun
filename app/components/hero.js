@@ -6,7 +6,7 @@ const Hero = () => (
   <>
     <Container className="flex flex-wrap mb-4">
       <div className="flex items-start w-full lg:w-1/2">
-        <div className="max-w-2xl mb-8">
+        <div className="max-w-2xl mb-8 mx-10">
           <h1 className="font-bold leading-snug tracking-tight text-xl text-gray-500 lg:mb-4 xl:mb-6 lg:leading-tight lg:text-xl xl:text-2xl xl:leading-tight dark:text-white">
             Facing challenges with ADHD?
           </h1>
@@ -17,7 +17,7 @@ const Hero = () => (
             </span>{" "}
             approach
           </h1>
-          <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300 lg:mb-6">
+          <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300 lg:mb-6 [text-wrap:balance]">
             As a certified occupational therapist, I&apos;m here to help you
             conquer ADHD challenges with the successful and innovative{" "}
             <b>CogFun</b> method. Let&apos;s thrive together!
@@ -27,7 +27,7 @@ const Hero = () => (
             <a
               href="/signup"
               rel="noopener"
-              className="px-8 py-4 text-lg font-medium text-center text-white bg-primary-600 rounded-md "
+              className="px-8 py-4 text-lg font-medium text-center text-white bg-primary-600 hover:bg-primary-800 rounded-md "
             >
               Get Started
             </a>
@@ -35,15 +35,14 @@ const Hero = () => (
         </div>
       </div>
       <div className="flex items-center justify-center w-full lg:w-1/2">
-        <div>
-          <Image
-            src={heroImg}
-            className={"object-cover"}
-            alt="cogfun"
-            loading="eager"
-            placeholder="blur"
-          />
-        </div>
+        <Image
+          src={heroImg}
+          className="object-cover z-20"
+          alt="cogfun"
+          loading="eager"
+          placeholder="blur"
+          width={500}
+        />
       </div>
     </Container>
   </>

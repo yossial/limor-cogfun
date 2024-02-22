@@ -5,9 +5,10 @@ import ThemeChanger from "./DarkSwitch";
 import Image from "next/image";
 import { Disclosure } from "@headlessui/react";
 
-const Navbar = () => {
-  const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
+import Brand from "../components/brand";
 
+const Navbar = () => {
+  const navigation = ["About", "Customers stories", "Pricing", "Company"];
   return (
     <div className="w-full">
       <nav className="container relative flex flex-wrap items-center justify-between py-4 px-8 mx-auto lg:justify-between xl:px-0">
@@ -16,20 +17,7 @@ const Navbar = () => {
           {({ open }) => (
             <>
               <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
-                <Link href="/">
-                  <span className="flex items-center space-x-2 text-2xl font-medium text-primary-500 dark:text-gray-100">
-                    <span>
-                      <Image
-                        src="/img/logo.svg"
-                        alt="L"
-                        width="32"
-                        height="32"
-                        className="w-8"
-                      />
-                    </span>
-                    <span>Limor</span>
-                  </span>
-                </Link>
+                <Brand />
 
                 <Disclosure.Button
                   aria-label="Toggle Menu"
@@ -99,7 +87,7 @@ const Navbar = () => {
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <Link
             href="/"
-            className="px-6 py-2 text-white bg-primary-700 hover:bg-primary-900 rounded-md md:ml-5"
+            className="px-6 py-2 text-white bg-primary-600 hover:bg-primary-800 rounded-md md:ml-5"
           >
             Get Started
           </Link>

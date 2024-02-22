@@ -12,11 +12,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: colors.blue,
-        secondary: colors.gray,
+        primary: colors.rose,
+        secondary: colors.slate,
         trueGray: colors.neutral,
       },
     },
+    fontFamily: {
+      'lobster': ['Lobster']
+    }
   },
   plugins: [
     require('flowbite/plugin')

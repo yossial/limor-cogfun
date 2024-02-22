@@ -143,7 +143,7 @@ const PopupWidget = () => {
 
                       <div className="mb-4">
                         <label
-                          htmlFor="full_name"
+                          htmlhtmlFor="full_name"
                           className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
                         >
                           Full Name
@@ -171,7 +171,7 @@ const PopupWidget = () => {
 
                       <div className="mb-4">
                         <label
-                          htmlFor="email"
+                          htmlhtmlFor="email"
                           className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
                         >
                           Email Address
@@ -203,7 +203,7 @@ const PopupWidget = () => {
 
                       <div className="mb-4">
                         <label
-                          htmlFor="message"
+                          htmlhtmlFor="message"
                           className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
                         >
                           Your Message

@@ -20,7 +20,7 @@ export default function contactUs() {
                     <div className="flex justify-center">
                       <button
                         type="button"
-                        class="text-white w-36 bg-blue-600 hover:bg-blue-800 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                        className="text-white w-36 bg-blue-600 hover:bg-blue-800 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                       >
                         Send
                       </button>
@@ -33,8 +33,8 @@ export default function contactUs() {
                   <iframe
                     src="https://maps.google.com/maps?q=beitshemesh&t=&z=13&ie=UTF8&iwloc=&output=embed"
                     className="absolute left-0 top-0 h-full w-full rounded-lg"
-                    frameborder="0"
-                    allowfullscreen
+                    frameBorder="0"
+                    allowFullScreen
                   ></iframe>
                 </div>
               </div>

@@ -66,7 +66,7 @@ const Auth = () => {
           <div className="mt-4">
             <label
               className="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200"
-              for="LoggingEmailAddress"
+              htmlFor="LoggingEmailAddress"
             >
               Email Address
             </label>
@@ -81,7 +81,7 @@ const Auth = () => {
             <div className="flex justify-between">
               <label
                 className="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200"
-                for="loggingPassword"
+                htmlFor="loggingPassword"
               >
                 Password
               </label>

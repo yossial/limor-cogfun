@@ -9,7 +9,7 @@ import userImg4 from "../../public/img/user4.jpg";
 
 const Testimonials = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2">
+    <div className="grid grid-cols-1 lg:grid-cols-2 bg-white">
       <Testimonial
         src={userImg1}
         name="Micheal Gough"

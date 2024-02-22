@@ -1,7 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
+
 import Container from "./container";
+import Brand from "../components/brand";
 
 export default function Footer() {
   const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
@@ -13,19 +15,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div>
               {" "}
-              <Link
-                href="/"
-                className="flex items-center space-x-2 text-2xl font-medium text-primary-500 dark:text-gray-100"
-              >
-                <Image
-                  src="/img/logo.svg"
-                  alt="N"
-                  width="32"
-                  height="32"
-                  className="w-8"
-                />
-                <span>Limor</span>
-              </Link>
+              <Brand />
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">

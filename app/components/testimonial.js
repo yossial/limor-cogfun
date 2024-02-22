@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Testimonial({ src, name, text, role }) {
   return (
     <section className="bg-white dark:bg-gray-900">
-      <div className="max-w-screen-xl px-4 pb-4 mx-auto text-center lg:py-8 lg:px-6">
+      <div className="max-w-screen-sm px-4 pb-4 mx-auto text-center lg:py-8 lg:px-6">
         <figure className="max-w-screen-md mx-auto">
           <svg
             className="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600"
@@ -19,7 +19,7 @@ export default function Testimonial({ src, name, text, role }) {
             />
           </svg>
           <blockquote>
-            <p className="text-xl font-medium text-gray-600 dark:text-white">
+            <p className="text-gray-600 dark:text-white [text-wrap:balance]">
               {text}
             </p>
           </blockquote>
